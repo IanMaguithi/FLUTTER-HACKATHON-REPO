@@ -16,11 +16,11 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(
-          seedColor: Color.fromARGB(255, 136, 48, 7),
+          seedColor: const Color.fromARGB(255, 136, 48, 7),
         ),
         useMaterial3: true,
       ),
-      home: TasksScreen(),
+      home: const TasksScreen(),
     );
   }
 }
